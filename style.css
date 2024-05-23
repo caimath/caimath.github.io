@@ -9,22 +9,27 @@ body {
     line-height: 1.6; /* Hauteur de ligne */
 }
 
+
+/*HEAD*/
 /* Style de l'en-tête */
 header {
     background: linear-gradient(to right, #495057, #343a40); /* Dégradé de fond */
     color: #f8f9fa; /* Couleur du texte */
     padding: 1em 0; /* Espacement interne (haut et bas) */
-    text-align: center; /* Centrage du texte */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    display: flex;
+    justify-content: space-between;/*flex-items justifiés avec espaces entre, et demi espaces au début et à la fin*/
 }
 
 /* Style du titre dans l'en-tête */
 header h1 {
-    display: flex; /* Utilisation du flexbox pour centrer verticalement */
-    align-items: center; /* Alignement vertical au centre */
-    justify-content: center; /* Centrage horizontal */
     margin: 0; /* Enlève les marges par défaut */
     font-size: 2em; /* Taille de la police */
+    color: #f8f9fa;
+}
+
+#logo {
+    text-decoration: none;
 }
 
 /* Style de l'image dans le titre */
@@ -52,6 +57,10 @@ nav#navtop a:hover {
     color: #adb5bd; /* Couleur des liens au survol */
 }
 
+
+
+
+/*MAIN*/
 /* Style de la section principale */
 main {
     padding: 20px; /* Espacement interne */
@@ -108,22 +117,27 @@ section#services li p {
     border-radius: 5px; /* Bords arrondis */
 }
 
-/* Style du pied de page */
+
+/*FOOTER*/
 footer {
     background-color: #343a40; /* Couleur de fond */
     color: #f8f9fa; /* Couleur du texte */
-    text-align: center; /* Centrage du texte */
     padding: 20px 0; /* Espacement interne (haut et bas) */
     margin-top: 20px; /* Espace au-dessus du pied de page */
 }
 
-/* Style des liens dans le pied de page */
-.footer-links {
+/* Style du texte dans le pied de page */
+footer p {
+    margin: 0; /* Enlève les marges par défaut */
+    text-align: center; /* Centrage du texte */
+}
+
+/*div général dans footer */
+footer div  {
     margin-bottom: 10px; /* Espace en dessous des liens */
 }
 
-/* Style des liens dans le pied de page */
-.footer-links a {
+footer div a {
     color: #adb5bd; /* Couleur du texte des liens */
     text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
     margin: 0 10px; /* Espacement horizontal entre les liens */
@@ -131,12 +145,9 @@ footer {
     transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
 }
 
-/* Changement de couleur au survol des liens dans le pied de page */
-.footer-links a:hover {
+footer div a:hover {
     color: #f8f9fa; /* Couleur des liens au survol */
 }
 
-/* Style du texte dans le pied de page */
-footer p {
-    margin: 0; /* Enlève les marges par défaut */
-}
+
+
