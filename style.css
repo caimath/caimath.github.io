@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: "Calibri", "Arial", sans-serif;
+    font: 1.5 rem;
+}
+
+
+header {
+    background-color: teal;
+    color: white;
+    text-align: center; /*pas flex pour tout et tirn la on bouge juste le texte*/
+     display: flex;
+    flex-direction: row;
+}
+
+header a {
+    color: #000045;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+#navtop {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin: 0;
+    display: flex;
+    color: black;
+}
+
+
