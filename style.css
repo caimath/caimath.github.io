@@ -1,34 +1,142 @@
+/* Style général du corps de la page */
 body {
-    margin: 0;
-    font-family: "Calibri", "Arial", sans-serif;
-    font: 1.5 rem;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Police de caractère */
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève les espacements par défaut */
+    box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans les dimensions totales des éléments */
+    background-color: #e9ecef; /* Couleur de fond */
+    color: #343a40; /* Couleur du texte */
+    line-height: 1.6; /* Hauteur de ligne */
 }
 
-
+/* Style de l'en-tête */
 header {
-    background-color: teal;
-    color: white;
-    text-align: center; /*pas flex pour tout et tirn la on bouge juste le texte*/
-     display: flex;
-    flex-direction: row;
+    background: linear-gradient(to right, #495057, #343a40); /* Dégradé de fond */
+    color: #f8f9fa; /* Couleur du texte */
+    padding: 1em 0; /* Espacement interne (haut et bas) */
+    text-align: center; /* Centrage du texte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
 
-header a {
-    color: #000045;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+/* Style du titre dans l'en-tête */
+header h1 {
+    display: flex; /* Utilisation du flexbox pour centrer verticalement */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: center; /* Centrage horizontal */
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 2em; /* Taille de la police */
 }
 
-
-#navtop {
-    display: flex;
-    flex-direction: row;
+/* Style de l'image dans le titre */
+header h1 img {
+    height: 32px; /* Hauteur de l'image */
+    margin-right: 10px; /* Espace à droite de l'image */
 }
 
-h1 {
-    margin: 0;
-    display: flex;
-    color: black;
+/* Style de la navigation */
+nav#navtop {
+    margin-top: 1em; /* Espace au-dessus de la navigation */
 }
 
+/* Style des liens dans la navigation */
+nav#navtop a {
+    color: #f8f9fa; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
+    margin: 0 15px; /* Espacement horizontal entre les liens */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
 
+/* Changement de couleur au survol des liens */
+nav#navtop a:hover {
+    color: #adb5bd; /* Couleur des liens au survol */
+}
+
+/* Style de la section principale */
+main {
+    padding: 20px; /* Espacement interne */
+    max-width: 800px; /* Largeur maximale */
+    margin: 20px auto; /* Centrage et espace vertical autour de la section */
+    text-align: center; /* Centrage du texte */
+    background: #ffffff; /* Couleur de fond */
+    border-radius: 10px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+/* Style des titres de la section principale */
+main h2 {
+    color: #495057; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace en dessous du titre */
+}
+
+/* Style des paragraphes dans la section principale */
+main p {
+    font-size: 1.2em; /* Taille de la police */
+    margin-bottom: 20px; /* Espace en dessous du paragraphe */
+}
+
+/* Style de la section des services */
+section#services {
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 20px; /* Espacement interne */
+    border-radius: 10px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    margin-top: 20px; /* Espace au-dessus de la section */
+}
+
+/* Style des listes non ordonnées */
+section#services ul {
+    list-style: none; /* Enlève les puces des listes */
+    padding: 0; /* Enlève les espacements internes */
+}
+
+/* Style des éléments de liste */
+section#services li {
+    background-color: #6c757d; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    margin: 10px 0; /* Espacement vertical entre les éléments */
+    padding: 15px; /* Espacement interne */
+    border-radius: 5px; /* Bords arrondis */
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style des paragraphes à l'intérieur des éléments de liste */
+section#services li p {
+    margin: 10px 0 0; /* Espacement interne */
+    padding: 10px; /* Espacement interne */
+    color: #343a40; /* Couleur du texte */
+    border-radius: 5px; /* Bords arrondis */
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #343a40; /* Couleur de fond */
+    color: #f8f9fa; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 20px 0; /* Espacement interne (haut et bas) */
+    margin-top: 20px; /* Espace au-dessus du pied de page */
+}
+
+/* Style des liens dans le pied de page */
+.footer-links {
+    margin-bottom: 10px; /* Espace en dessous des liens */
+}
+
+/* Style des liens dans le pied de page */
+.footer-links a {
+    color: #adb5bd; /* Couleur du texte des liens */
+    text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
+    margin: 0 10px; /* Espacement horizontal entre les liens */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+}
+
+/* Changement de couleur au survol des liens dans le pied de page */
+.footer-links a:hover {
+    color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+/* Style du texte dans le pied de page */
+footer p {
+    margin: 0; /* Enlève les marges par défaut */
+}
