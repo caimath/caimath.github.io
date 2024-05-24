@@ -84,13 +84,14 @@ main p {
     margin-bottom: 20px; /* Espace en dessous du paragraphe */
 }
 
+/*SECTION GLOBALE*/
 /* Style de la section des services */
 section#services {
-    background-color: #ffffff; /* Couleur de fond */
-    padding: 20px; /* Espacement interne */
-    border-radius: 10px; /* Bords arrondis */
+    background-color: #ffffff; 
+    padding: 5px; /* Espacement interne */
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
-    margin-top: 20px; /* Espace au-dessus de la section */
+    margin-top: 10px; /* Espace au-dessus de la section */
 }
 
 /* Style des listes non ordonnées */
@@ -101,20 +102,64 @@ section#services ul {
 
 /* Style des éléments de liste */
 section#services li {
-    background-color: #6c757d; /* Couleur de fond */
-    color: #ffffff; /* Couleur du texte */
-    margin: 10px 0; /* Espacement vertical entre les éléments */
-    padding: 15px; /* Espacement interne */
-    border-radius: 5px; /* Bords arrondis */
-    font-weight: bold; /* Texte en gras */
+    background-color: #6c757d;
+    color: #ffffff; 
+    margin: 15px 0; /* Espacement vertical entre les éléments */
+    padding: 25px; /* taille bloc */
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: 0.5s;
 }
 
 /* Style des paragraphes à l'intérieur des éléments de liste */
 section#services li p {
     margin: 10px 0 0; /* Espacement interne */
     padding: 10px; /* Espacement interne */
-    color: #343a40; /* Couleur du texte */
-    border-radius: 5px; /* Bords arrondis */
+    color: #343a40; 
+    border-radius: 5px; 
+}
+
+/* effet shadow */
+section#services li:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+    transform: translateY(-10px);
+}
+
+#bagarre-solo {
+    margin : 100px auto;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_solo_taille.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+
+#bagarre-groupees {
+    margin : 100px auto;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_groupees.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+#voisin-vnr {
+    margin : 100px auto;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/voisin_vnr.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+#bodyguard {
+    margin : 100px auto;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/quatre_heros.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
 }
 
 
