@@ -11,51 +11,68 @@ body {
 
 /*HEAD*/
 /* Style de l'en-tête */
+/* Style de l'en-tête */
 header {
-    background: linear-gradient(to right, #495057, #343a40); /* Dégradé de fond */
-    color: #f8f9fa; /* Couleur du texte */
-    padding: 1em 0; /* Espacement interne (haut et bas) */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
-    display: flex;
-    justify-content: space-between;/*flex-items justifiés avec espaces entre, et demi espaces au début et à la fin*/
+    background: linear-gradient(to right, #495057, #343a40);
+    color: #f8f9fa;
+    padding: 1em 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style du titre dans l'en-tête */
-header h1 {
-    margin: 0; /* Enlève les marges par défaut */
-    font-size: 2em; /* Taille de la police */
-    color: #f8f9fa;    
-    
+/* Style de la navigation */
+nav {
+    display: flex; /* Utilise Flexbox pour organiser les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Espace les éléments uniformément */
+    padding: 0 1em; /* Espacement interne gauche et droite */
 }
 
+/* Style du logo */
 #logo {
     text-decoration: none;
 }
 
-/* Style de l'image dans le titre */
-header img {
+/* Style de l'image dans le logo */
+nav img {
     height: 40px; /* Hauteur de l'image */
     margin-right: 10px; /* Espace à droite de l'image */
-    
-    
+}
+
+/* Style du titre */
+nav h2 {
+    margin: 0; /* Enlève les marges par défaut */
+    font-size: 1.5em; /* Taille de la police */
+    color: #f8f9fa;
+}
+
+nav h2 a {
+    color: #f8f9fa;
+    text-decoration: none;
 }
 
 /* Style de la navigation */
-nav#navtop {
-    margin-top: 1em; /* Espace au-dessus de la navigation */
+#navtop {
+    display: flex; /* Utilise Flexbox pour organiser les éléments */
+    list-style: none; /* Enlève les puces des listes */
+    margin: 0; /* Enlève les marges par défaut */
+    padding: 0; /* Enlève les espacements par défaut */
+}
+
+/* Style des éléments de la navigation */
+#navtop li {
+    margin: 0 15px; /* Espacement horizontal entre les liens */
 }
 
 /* Style des liens dans la navigation */
-nav#navtop a {
+#navtop a {
     color: #f8f9fa; /* Couleur du texte des liens */
     text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
-    margin: 0 15px; /* Espacement horizontal entre les liens */
     font-weight: bold; /* Texte en gras */
     transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
 }
 
 /* Changement de couleur au survol des liens */
-nav#navtop a:hover {
+#navtop a:hover {
     color: #adb5bd; /* Couleur des liens au survol */
 }
 
