@@ -175,16 +175,41 @@ section#services li:hover {
 
 
 /* SECTION EQUIPE*/
-.equipe-contenu img {
-    color:blue;
-    height:15em;
+
+/* Style de la section "equipe" */
+#equipe-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espace entre les articles */
 }
 
-.equipe-contenu {
-    display: flex;
-    justify-content: center
+.equipe-membre {
+    flex: 1 1 200px; /* Les éléments prennent une place minimale de 200px et grandissent pour remplir l'espace */
+    margin: 10px;
+    background-color: #f8f9fa; /* Couleur de fond des articles */
+    border-radius: 10px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    padding: 20px; /* Espacement interne */
+    text-align: center; /* Centrage du texte */
+}
 
-    
+/* Style des images dans les articles */
+.equipe-membre img {
+    height: 15em;
+    width: auto; /*conserve propotio*/
+    border-radius: 4%;
+    margin-bottom: 10px; /* Espace bas images */
+}
+
+/* Style des titres dans les articles */
+.equipe-membre h3 {
+    margin: 10px 0;
+    color: #343a40; /* Couleur du texte */
+}
+
+/* Style des paragraphes dans les articles */
+.equipe-membre p {
+    color: #6c757d; /* Couleur du texte */
 }
 
 /*FOOTER*/
