@@ -25,7 +25,7 @@ header {
 header h1 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 2em; /* Taille de la police */
-    color: #f8f9fa;
+    color: #f8f9fa;    
 }
 
 #logo {
@@ -33,9 +33,11 @@ header h1 {
 }
 
 /* Style de l'image dans le titre */
-header h1 img {
-    height: 32px; /* Hauteur de l'image */
+header img {
+    height: 40px; /* Hauteur de l'image */
     margin-right: 10px; /* Espace à droite de l'image */
+    
+    
 }
 
 /* Style de la navigation */
