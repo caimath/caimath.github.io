@@ -9,7 +9,6 @@ body {
     line-height: 1.6; /* Hauteur de ligne */
 }
 
-
 /*HEAD*/
 /* Style de l'en-tête */
 header {
@@ -26,6 +25,7 @@ header h1 {
     margin: 0; /* Enlève les marges par défaut */
     font-size: 2em; /* Taille de la police */
     color: #f8f9fa;    
+    
 }
 
 #logo {
@@ -85,9 +85,17 @@ main p {
     font-size: 1.2em; /* Taille de la police */
     margin-bottom: 20px; /* Espace en dessous du paragraphe */
 }
-
 /*SECTION GLOBALE*/
-/* Style de la section des services */
+section#services {
+    background-color: #ffffff; 
+    padding: 5px; /* Espacement interne */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    margin-top: 10px; /* Espace au-dessus de la section */
+}
+
+/* SECTION INDEX */
+/* gestion des services*/
 section#services {
     background-color: #ffffff; 
     padding: 5px; /* Espacement interne */
@@ -127,6 +135,7 @@ section#services li:hover {
     transform: translateY(-10px);
 }
 
+/*4 image section index*/
 #bagarre-solo {
     margin : 100px auto;
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_solo_taille.png);
@@ -135,7 +144,6 @@ section#services li:hover {
     border-radius: 10px;
     padding: 100px 0;
 }
-
 
 #bagarre-groupees {
     margin : 100px auto;
@@ -164,6 +172,20 @@ section#services li:hover {
     padding: 100px 0;
 }
 
+
+
+/* SECTION EQUIPE*/
+.equipe-contenu img {
+    color:blue;
+    height:15em;
+}
+
+.equipe-contenu {
+    display: flex;
+    justify-content: center
+
+    
+}
 
 /*FOOTER*/
 footer {
