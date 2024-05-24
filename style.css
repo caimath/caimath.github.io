@@ -120,8 +120,8 @@ section#services li p {
 
 /*FOOTER*/
 footer {
-    background-color: #343a40; /* Couleur de fond */
-    color: #f8f9fa; /* Couleur du texte */
+    background-color: #343a40; 
+    color: #f8f9fa; 
     padding: 20px 0; /* Espacement interne (haut et bas) */
     margin-top: 20px; /* Espace au-dessus du pied de page */
 }
@@ -133,8 +133,16 @@ footer p {
 }
 
 /*div général dans footer */
+
+#div-papa {
+    display: flex;
+
+}
+
 footer div  {
     margin-bottom: 10px; /* Espace en dessous des liens */
+
+    
 }
 
 footer div a {
@@ -147,6 +155,15 @@ footer div a {
 
 footer div a:hover {
     color: #f8f9fa; /* Couleur des liens au survol */
+}
+
+#footer-links {
+    margin: auto;
+   
+}
+
+#reseaux-sociaux {
+    margin: auto;
 }
 
 
