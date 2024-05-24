@@ -82,9 +82,11 @@ nav h2 a {
 
 /*MAIN*/
 /* Style de la section principale */
-main {
+
+/*main de la page index */
+#index {
     padding: 20px; /* Espacement interne */
-    max-width: 800px; /* Largeur maximale */
+    max-width: 1200px; /* Largeur maximale */
     margin: 20px auto; /* Centrage et espace vertical autour de la section */
     text-align: center; /* Centrage du texte */
     background: #ffffff; /* Couleur de fond */
@@ -191,6 +193,18 @@ section#services li:hover {
 }
 
 
+/*MAIN EQUIPE*/
+#main-equipe {
+    padding: 20px; /* Espacement interne */
+    max-width: 1200px; /* Largeur maximale */
+    margin: 20px auto; /* Centrage et espace vertical autour de la section */
+    text-align: center; /* Centrage du texte */
+    background: #ffffff; /* Couleur de fond */
+    border-radius: 10px; /* Bords arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+
+}
+
 
 /* SECTION EQUIPE*/
 
@@ -235,7 +249,7 @@ footer {
     background-color: #343a40; 
     color: #f8f9fa; 
     padding: 20px 0; /* Espacement interne (haut et bas) */
-    margin-top: 20px; /* Espace au-dessus du pied de page */
+    margin-top: 10px; /* Espace au-dessus du pied de page */
 }
 
 /* Style du texte dans le pied de page */
@@ -248,11 +262,13 @@ footer p {
 
 #div-papa {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 
 }
 
 footer div  {
-    margin-bottom: 10px; /* Espace en dessous des liens */
+    margin-bottom: 20px; /* Espace en dessous des liens */
 
     
 }
@@ -270,12 +286,12 @@ footer div a:hover {
 }
 
 #footer-links {
-    margin: auto;
+    margin: 2%;
    
 }
 
 #reseaux-sociaux {
-    margin: auto;
+    margin-left: 70%;
 }
 
 
