@@ -27,8 +27,9 @@ nav {
 }
 
 /* Style du logo */
-#logo {
+#logo img {
     text-decoration: none;
+    height: 5em;
 }
 
 /* Style de l'image dans le logo */
@@ -141,11 +142,15 @@ section#services li {
     transition: 0.5s;
 }
 
+section#services h3 {
+    font-size: 1.5em ;
+}
+
 /* Style des paragraphes à l'intérieur des éléments de liste */
 section#services li p {
     margin: 10px 0 0; /* Espacement interne */
     padding: 10px; /* Espacement interne */
-    color: #343a40; 
+    color: #d4dbe2; 
     border-radius: 5px; 
 }
 
@@ -264,6 +269,7 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -285,14 +291,8 @@ footer div a:hover {
     color: #f8f9fa; /* Couleur des liens au survol */
 }
 
-#footer-links {
-    margin: 2%;
-   
+#logo-footer img {
+    height: 15em;
 }
-
-#reseaux-sociaux {
-    margin-left: 70%;
-}
-
 
 
