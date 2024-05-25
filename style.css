@@ -26,6 +26,11 @@ nav {
     padding: 0 1em; /* Espacement interne gauche et droite */
 }
 
+#titre-logo {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Style du logo */
 #logo img {
     text-decoration: none;
@@ -41,7 +46,7 @@ nav img {
 /* Style du titre */
 nav h2 {
     margin: 0; /* Enlève les marges par défaut */
-    font-size: 1.5em; /* Taille de la police */
+    font-size: 1.75em; /* Taille de la police */
     color: #f8f9fa;
     align-self: center;
     margin-right: auto ;
@@ -58,6 +63,7 @@ nav h2 a {
     list-style: none; /* Enlève les puces des listes */
     margin: 0; /* Enlève les marges par défaut */
     padding: 0; /* Enlève les espacements par défaut */
+    font-size: 1.15em;
 }
 
 /* Style des éléments de la navigation */
@@ -295,3 +301,66 @@ footer div a:hover {
     height: 15em;
 }
 
+/*MEDIA QUERY*/
+
+/* 700 max */
+@media (max-width: 700px) {
+
+    /* HEADER*/
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navtop {
+        flex-direction: column;
+        margin-top: 0.15em;
+        align-items: center;
+    }
+
+    #navtop li {
+        margin: 10px 0;
+        margin-left: 5rem;
+    }
+
+
+
+    /*MAIN*/
+    main {
+        padding: 1em;
+    }
+
+    #services ul {
+        flex-direction: column;
+    }
+
+    #services li {
+        width: 100%;
+    }
+
+    #bagarre-solo, #bagarre-groupees, #voisin-vnr, #bodyguard {
+        padding: 50px 0;
+    }
+
+    #div-papa {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-footer img {
+        height: 10em;
+    }
+
+    section#services li {
+        font-size: 1em;
+    }
+
+    section#services h3 {
+        font-size: 1.2em;
+    }
+
+    section#services li p {
+        font-size: 0.9em;
+    }
+}
