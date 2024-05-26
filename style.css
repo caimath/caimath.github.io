@@ -146,6 +146,7 @@ section#services li {
     border-radius: 5px; 
     font-weight: bold; 
     transition: 0.5s;
+    margin: 2.5em;
 }
 
 section#services h3 {
@@ -207,13 +208,11 @@ section#services li:hover {
 /*MAIN EQUIPE*/
 #main-equipe {
     padding: 20px; /* Espacement interne */
-    max-width: 1200px; /* Largeur maximale */
     margin: 20px auto; /* Centrage et espace vertical autour de la section */
     text-align: center; /* Centrage du texte */
     background: #ffffff; /* Couleur de fond */
     border-radius: 10px; /* Bords arrondis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
-
 }
 
 
@@ -321,7 +320,7 @@ footer div a:hover {
 
     #navtop li {
         margin: 10px 0;
-        margin-left: 5rem;
+        margin-left: 2.5rem;
     }
 
 
@@ -329,6 +328,7 @@ footer div a:hover {
     /*MAIN*/
     main {
         padding: 1em;
+        max-width: 700px; 
     }
 
     #services ul {
@@ -336,6 +336,10 @@ footer div a:hover {
     }
 
     #services li {
+        width: auto;
+    }
+
+    #services {
         width: 100%;
     }
 
