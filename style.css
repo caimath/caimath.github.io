@@ -277,7 +277,6 @@ footer p {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
 }
 
 footer div  {
@@ -318,13 +317,13 @@ footer div a:hover {
 
     #navtop {
         flex-direction: column;
-        margin-top: 0.15em;
+        margin-top: 0.1em;
         align-items: center;
     }
 
     #navtop li {
         margin: 10px 0;
-        margin-left: 2.5rem;
+        margin-left: 2.0rem;
     }
 
 
@@ -349,15 +348,25 @@ footer div a:hover {
         padding: 50px 0;
     }
 
+    /*FOOTER -700*/
     #div-papa {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
+        gap: 1.5em;
     }
 
     #logo-footer img {
-        height: 10em;
+        height: 8em;
     }
 
+    #logo-footer {
+        display: flex;
+        order: 2;
+    }
+
+
+    /*Section services*/
     section#services li {
         font-size: 1em;
     }
@@ -369,6 +378,8 @@ footer div a:hover {
     section#services li p {
         font-size: 0.9em;
     }
+
+    
 
     /*Equipe */
     .equipe-membre img{
