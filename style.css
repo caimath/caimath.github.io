@@ -86,8 +86,6 @@ nav h2 a {
 }
 
 
-
-
 /*MAIN*/
 /* Style de la section principale */
 
@@ -228,11 +226,11 @@ section#services li:hover {
 }
 
 .equipe-membre {
-    flex: 1 1 200px; /* Les éléments prennent une place minimale de 200px et grandissent pour remplir l'espace */
+    flex: 1 1 200px; /*grandissent pour remplir espace */
     margin: 10px;
-    background-color: #f8f9fa; /* Couleur de fond des articles */
-    border-radius: 10px; /* Bords arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
     padding: 20px; /* Espacement interne */
     text-align: center; /* Centrage du texte */
 }
@@ -254,6 +252,10 @@ section#services li:hover {
 /* Style des paragraphes dans les articles */
 .equipe-membre p {
     color: #6c757d; /* Couleur du texte */
+}
+
+#membre-star {
+    margin-top: 5em;
 }
 
 /*FOOTER*/
