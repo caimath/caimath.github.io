@@ -279,10 +279,20 @@ footer p {
     justify-content: space-around;
 }
 
+#div-papa h2 {
+    font-size: 1.5em;
+}
+
+#div-papa a {
+    font-size: 1.5em;
+}
+
+#footer-links, #reseaux-sociaux {
+    align-items: center;
+}
+
 footer div  {
     margin-bottom: 20px; /* Espace en dessous des liens */
-
-    
 }
 
 footer div a {
@@ -298,7 +308,7 @@ footer div a:hover {
 }
 
 #logo-footer img {
-    height: 15em;
+    height: 12.5em;
 }
 
 /*MEDIA QUERY*/
@@ -363,6 +373,14 @@ footer div a:hover {
     #logo-footer {
         display: flex;
         order: 2;
+    }
+
+    #div-papa h2{
+        font-size: 24px;
+    }
+
+    #div-papa a {
+        font-size: 16px;
     }
 
 
