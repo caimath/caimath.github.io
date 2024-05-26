@@ -217,7 +217,9 @@ section#services li:hover {
 
 
 /* SECTION EQUIPE*/
-
+#equipe {
+    margin-top: 5em;
+}
 /* Style de la section "equipe" */
 #equipe-contenu {
     display: flex;
