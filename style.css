@@ -127,7 +127,7 @@ section#services {
     padding: 5px; /* Espacement interne */
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
-    margin-top: 10px; /* Espace au-dessus de la section */
+    margin-top: 10px; 
 }
 
 /* Style des listes non ordonnées */
@@ -203,6 +203,40 @@ section#services li:hover {
     padding: 100px 0;
 }
 
+/*SECTION TARIF*/
+#tarif {
+    background-color: #ffffff; 
+    padding: 5px; /* Espacement interne */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    margin-top: 10px;
+}
+
+#tarif ul {
+    list-style: none; 
+    padding: 0; 
+}
+    
+#tarif li {
+    background-color: #6c757d;
+    color: #ffffff; 
+    margin: 15px 0; /* Espacement vertical entre les éléments */
+    padding: 25px; /* taille bloc */
+    border-radius: 5px; 
+    font-weight: bold; 
+    transition: 0.5s;
+    margin: 2.5em;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+    gap: 1.25em
+}
+
+#tarif p {
+    
+}
 
 /*MAIN EQUIPE*/
 #main-equipe {
