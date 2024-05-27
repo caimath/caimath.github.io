@@ -260,6 +260,27 @@ section#services li:hover {
     margin-top: 5em;
 }
 
+/* MAIN A PROPOS*/
+#a-propos {
+    padding: 20px;
+    margin: 20px auto; 
+    background: #ffffff; 
+    border-radius: 10px; 
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    text-decoration: none;
+}
+
+a[href^="mailto"], a[href^="tel"] {
+    text-decoration: none;
+    color: #343a40;
+}
+
+#wireframe img {
+    width: 15em;
+    
+}
+
 /*FOOTER*/
 footer {
     background-color: #343a40; 
@@ -336,6 +357,11 @@ footer div a:hover {
 #back-to-top:hover {
     background-color: #495057; 
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*MEDIA QUERY*/
 /*mobile/tablette -700px*/
