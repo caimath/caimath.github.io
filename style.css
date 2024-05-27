@@ -169,7 +169,7 @@ section#services li:hover {
 /*4 image section index*/
 #bagarre-solo {
     margin : 100px auto;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_solo_taille.png);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_ordi.webp);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -196,7 +196,7 @@ section#services li:hover {
 
 #bodyguard {
     margin : 100px auto;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/quatre_heros.webp);
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/quatre_heros_taille_ordi.webp);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -485,6 +485,47 @@ html {
         padding: 50px 0;
     }
 
+
+
+    /*Section services*/
+    section#services li {
+        font-size: 1em;
+    }
+
+    section#services h3 {
+        font-size: 1.2em;
+    }
+
+    section#services li p {
+        font-size: 0.9em;
+    }
+
+    #bodyguard {
+        margin : 100px auto;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/quatre_heros.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 100px 0;
+    }
+
+    #bagarre-solo {
+        margin : 100px auto;
+        background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/img/bagarre_solo_bon.webp);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 100px 0;
+    }
+
+    
+
+    /*Equipe */
+    .equipe-membre img{
+        max-width: 200px;
+        height: 240px;
+    }
+
     /*FOOTER -700*/
     #div-papa {
         flex-direction: row;
@@ -508,27 +549,5 @@ html {
 
     #div-papa a {
         font-size: 16px;
-    }
-
-
-    /*Section services*/
-    section#services li {
-        font-size: 1em;
-    }
-
-    section#services h3 {
-        font-size: 1.2em;
-    }
-
-    section#services li p {
-        font-size: 0.9em;
-    }
-
-    
-
-    /*Equipe */
-    .equipe-membre img{
-        max-width: 200px;
-        height: 240px;
     }
 }
