@@ -45,7 +45,7 @@ nav img {
 }
 
 /* Style du titre */
-nav h2 {
+nav h1 {
     margin: 0; 
     font-size: 1.75em; 
     color: #f8f9fa;
@@ -53,7 +53,7 @@ nav h2 {
     margin-right: auto ;
 }
 
-nav h2 a {
+nav h1 a {
     color: #f8f9fa;
     text-decoration: none;
 }
