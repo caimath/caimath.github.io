@@ -234,6 +234,17 @@ section#services li:hover {
     gap: 1.25em
 }
 
+#ordi a {
+    padding: 0.5em;
+}
+
+#tel a {
+    padding: 0.5em;
+}
+
+#tel {
+    margin-top: 3em;
+}
 
 /*MAIN EQUIPE*/
 #main-equipe {
