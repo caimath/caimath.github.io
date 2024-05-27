@@ -1,13 +1,13 @@
 /* desktop first*/
 /* Style général de la page */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Police de caractère */
-    margin: 0; /* Enlève les marges par défaut */
-    padding: 0; /* Enlève les espacements par défaut */
-    box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans les dimensions totales des éléments */
-    background-color: #e9ecef; /* Couleur de fond */
-    color: #343a40; /* Couleur du texte */
-    line-height: 1.6; /* Hauteur de ligne */
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: #e9ecef; 
+    color: #343a40; 
+    line-height: 1.6; 
 }
 
 /*HEAD*/
@@ -21,10 +21,10 @@ header {
 
 /* Style de la navigation */
 nav {
-    display: flex; /* Utilise Flexbox pour organiser les éléments */
-    align-items: center; /* Centre verticalement les éléments */
-    justify-content: space-between; /* Espace les éléments uniformément */
-    padding: 0 1em; /* Espacement interne gauche et droite */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 1em; 
 }
 
 #titre-logo {
@@ -40,14 +40,14 @@ nav {
 
 /* Style de l'image dans le logo */
 nav img {
-    height: 40px; /* Hauteur de l'image */
-    margin-right: 10px; /* Espace à droite de l'image */
+    height: 40px;
+    margin-right: 10px; 
 }
 
 /* Style du titre */
 nav h2 {
-    margin: 0; /* Enlève les marges par défaut */
-    font-size: 1.75em; /* Taille de la police */
+    margin: 0; 
+    font-size: 1.75em; 
     color: #f8f9fa;
     align-self: center;
     margin-right: auto ;
@@ -60,29 +60,29 @@ nav h2 a {
 
 /* Style de la navigation */
 #navtop {
-    display: flex; /* Utilise Flexbox pour organiser les éléments */
-    list-style: none; /* Enlève les puces des listes */
-    margin: 0; /* Enlève les marges par défaut */
-    padding: 0; /* Enlève les espacements par défaut */
+    display: flex; 
+    list-style: none; /* Enlève les puces */
+    margin: 0; 
+    padding: 0; 
     font-size: 1.15em;
 }
 
 /* Style des éléments de la navigation */
 #navtop li {
-    margin: 0 15px; /* Espacement horizontal entre les liens */
+    margin: 0 15px; 
 }
 
 /* Style des liens dans la navigation */
 #navtop a {
-    color: #f8f9fa; /* Couleur du texte des liens */
-    text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
-    font-weight: bold; /* Texte en gras */
-    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+    color: #f8f9fa; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease; 
 }
 
 /* Changement de couleur au survol des liens */
 #navtop a:hover {
-    color: #adb5bd; /* Couleur des liens au survol */
+    color: #adb5bd; 
 }
 
 
@@ -91,25 +91,25 @@ nav h2 a {
 
 /*main de la page index */
 #index {
-    padding: 20px; /* Espacement interne */
-    max-width: 1200px; /* Largeur maximale */
-    margin: 20px auto; /* Centrage et espace vertical autour de la section */
-    text-align: center; /* Centrage du texte */
-    background: #ffffff; /* Couleur de fond */
-    border-radius: 10px; /* Bords arrondis */
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 20px auto; 
+    text-align: center; 
+    background: #ffffff; 
+    border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
 
 /* Style des titres de la section principale */
 main h2 {
-    color: #495057; /* Couleur du texte */
-    margin-bottom: 20px; /* Espace en dessous du titre */
+    color: #495057; 
+    margin-bottom: 20px; 
 }
 
 /* Style des paragraphes dans la section principale */
 main p {
-    font-size: 1.2em; /* Taille de la police */
-    margin-bottom: 20px; /* Espace en dessous du paragraphe */
+    font-size: 1.2em; 
+    margin-bottom: 20px; 
 }
 /*SECTION GLOBALE*/
 section#services {
@@ -117,7 +117,7 @@ section#services {
     padding: 5px; /* Espacement interne */
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
-    margin-top: 10px; /* Espace au-dessus de la section */
+    margin-top: 10px; 
 }
 
 /* SECTION INDEX */
@@ -132,8 +132,8 @@ section#services {
 
 /* Style des listes non ordonnées */
 section#services ul {
-    list-style: none; /* Enlève les puces des listes */
-    padding: 0; /* Enlève les espacements internes */
+    list-style: none; 
+    padding: 0; 
 }
 
 /* Style des éléments de liste */
@@ -154,8 +154,8 @@ section#services h3 {
 
 /* Style des paragraphes à l'intérieur des éléments de liste */
 section#services li p {
-    margin: 10px 0 0; /* Espacement interne */
-    padding: 10px; /* Espacement interne */
+    margin: 10px 0 0; 
+    padding: 10px; 
     color: #d4dbe2; 
     border-radius: 5px; 
 }
@@ -206,11 +206,11 @@ section#services li:hover {
 
 /*MAIN EQUIPE*/
 #main-equipe {
-    padding: 20px; /* Espacement interne */
-    margin: 20px auto; /* Centrage et espace vertical autour de la section */
-    text-align: center; /* Centrage du texte */
-    background: #ffffff; /* Couleur de fond */
-    border-radius: 10px; /* Bords arrondis */
+    padding: 20px;
+    margin: 20px auto; 
+    text-align: center; 
+    background: #ffffff; 
+    border-radius: 10px; 
     max-width: 1200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
@@ -234,7 +234,7 @@ section#services li:hover {
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
     padding: 20px; /* Espacement interne */
-    text-align: center; /* Centrage du texte */
+    text-align: center; 
 }
 
 /* Style des images dans les articles */
@@ -248,12 +248,12 @@ section#services li:hover {
 /* Style des titres dans les articles */
 .equipe-membre h3 {
     margin: 10px 0;
-    color: #343a40; /* Couleur du texte */
+    color: #343a40; 
 }
 
 /* Style des paragraphes dans les articles */
 .equipe-membre p {
-    color: #6c757d; /* Couleur du texte */
+    color: #6c757d; 
 }
 
 #membre-star {
@@ -264,14 +264,14 @@ section#services li:hover {
 footer {
     background-color: #343a40; 
     color: #f8f9fa; 
-    padding: 20px 0; /* Espacement interne (haut et bas) */
-    margin-top: 10px; /* Espace au-dessus du pied de page */
+    padding: 20px 0; 
+    margin-top: 10px; 
 }
 
 /* Style du texte dans le pied de page */
 footer p {
-    margin: 0; /* Enlève les marges par défaut */
-    text-align: center; /* Centrage du texte */
+    margin: 0; 
+    text-align: center; 
 }
 
 /*div général dans footer */
@@ -296,27 +296,49 @@ footer p {
 }
 
 footer div  {
-    margin-bottom: 20px; /* Espace en dessous des liens */
+    margin-bottom: 20px; 
 }
 
 footer div a {
-    color: #adb5bd; /* Couleur du texte des liens */
-    text-decoration: none; /* Enlève la décoration par défaut des liens (soulignement) */
-    margin: 0 10px; /* Espacement horizontal entre les liens */
-    font-weight: bold; /* Texte en gras */
-    transition: color 0.3s ease; /* Transition douce pour le changement de couleur */
+    color: #adb5bd; 
+    text-decoration: none; 
+    margin: 0 10px;
+    font-weight: bold; 
+    transition: color 0.3s ease; /* Transition pour le changement de couleur */
 }
 
 footer div a:hover {
-    color: #f8f9fa; /* Couleur des liens au survol */
+    color: #f8f9fa; 
 }
 
 #logo-footer img {
     height: 12.5em;
 }
 
+/*flèche de l'ancre vers le top */
+#back-to-top {
+    position: fixed; 
+    bottom: 20px; 
+    right: 0.25em; 
+    background-color: #6c757d; 
+    color: #ffffff; 
+    padding: 10px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 24px; 
+    line-height: 24px; 
+}
+
+#back-to-top:hover {
+    background-color: #495057; 
+}
+
 /*MEDIA QUERY*/
-/*mobile-700px*/
+/*mobile/tablette -700px*/
 @media (max-width: 700px) {
 
     body {
