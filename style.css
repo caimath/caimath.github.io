@@ -278,7 +278,40 @@ a[href^="mailto"], a[href^="tel"] {
 
 #wireframe img {
     width: 15em;
-    
+}
+
+#a-propos h2 {
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.contenu-a-propos {
+    margin-bottom: 3em;
+}
+
+.contenu-a-propos h3 {
+    font-size: 1.5em;
+}
+
+.contenu-a-propos p {
+    font-size: 1.25em;
+}
+
+.contenu-a-propos li {
+    font-size: 1.25em;
+}
+
+#wireframe h3 {
+    font-size: 1.5em;
+}
+
+#wireframe h4 {
+    font-size: 1.10em;
+}
+
+#wireframe {
+    margin-top: 3em;
 }
 
 /*FOOTER*/
