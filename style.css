@@ -411,9 +411,11 @@ footer div a:hover {
     height: 12.5em;
 }
 
+/* STYLE ancre */
 /*flèche de l'ancre vers le top */
 #back-to-top {
     position: fixed; 
+    display: none; /* Masqué, apparaît grâce à JS */
     bottom: 20px; 
     right: 0.25em; 
     background-color: #6c757d; 
@@ -421,7 +423,7 @@ footer div a:hover {
     padding: 10px; 
     border-radius: 50%; 
     cursor: pointer; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
     transition: background-color 0.3s; /* Transition pour le changement de couleur */
     text-align: center; 
     text-decoration: none; 
